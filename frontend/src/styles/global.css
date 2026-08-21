@@ -1,0 +1,32 @@
+:root {
+  --bg: #0B0D10;
+  --surface: #12151A;
+  --surface-2: #181C22;
+  --border: rgba(255, 255, 255, 0.06);
+  --text: #E8EAED;
+  --text-dim: #6B7684;
+  --accent: #3DD68C;
+  --accent-dim: rgba(61, 214, 140, 0.14);
+  --danger: #C4453D;
+  --island-bg: rgba(18, 21, 26, 0.85);
+  --serif: 'Source Serif 4', Georgia, serif;
+  --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  overflow: hidden;
+}
